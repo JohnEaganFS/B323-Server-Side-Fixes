@@ -57,6 +57,7 @@ namespace B323ServerSideFixes
 
             PatchFaceOffStarted<PublicGameModeConfig>();
             PatchFaceOffStarted<CompetitiveGameModeConfig>();
+            ReplayStickSimulationPatch.Apply(harmony);
             patched = true;
         }
 
