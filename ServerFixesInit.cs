@@ -56,6 +56,7 @@ namespace B323ServerSideFixes
             ReplayFaceOffLifecyclePatch.Apply(harmony);
             ReplayStickSimulationPatch.Apply(harmony);
             ReplayGhostObjectCleanupPatch.Apply(harmony);
+            FaceOffPositionDoubleClickPatch.Apply(harmony);
             patched = true;
         }
     }
