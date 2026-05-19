@@ -1,6 +1,7 @@
 using System;
 using System.Reflection;
 using HarmonyLib;
+using Unity.Netcode;
 using UnityEngine;
 
 namespace B323ServerSideFixes
@@ -28,6 +29,11 @@ namespace B323ServerSideFixes
 
         private static bool OnPlayerRequestPositionPrefix(object __instance, Player player, PlayerPosition position)
         {
+            if (!IsServer())
+            {
+                return true;
+            }
+
             if (player == null || position == null)
             {
                 return true;
@@ -49,6 +55,11 @@ namespace B323ServerSideFixes
             }
 
             return true;
+        }
+
+        private static bool IsServer()
+        {
+            return NetworkManager.Singleton != null && NetworkManager.Singleton.IsServer;
         }
 
         private static GameManager GetGameManager(object instance)

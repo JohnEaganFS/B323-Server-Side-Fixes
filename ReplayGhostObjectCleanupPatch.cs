@@ -54,6 +54,11 @@ namespace B323ServerSideFixes
 
         private static void ServerSpawnPlayerBodyPrefix(Player __instance)
         {
+            if (!IsServer())
+            {
+                return;
+            }
+
             if (!IsReplayPlayer(__instance) || !__instance.PlayerBody || !__instance.PlayerBody.NetworkObject.IsSpawned)
             {
                 return;
@@ -65,6 +70,11 @@ namespace B323ServerSideFixes
 
         private static void ServerSpawnStickPrefix(Player __instance)
         {
+            if (!IsServer())
+            {
+                return;
+            }
+
             if (!IsReplayPlayer(__instance) || !__instance.Stick || !__instance.Stick.NetworkObject.IsSpawned)
             {
                 return;
@@ -76,6 +86,11 @@ namespace B323ServerSideFixes
 
         private static void ServerStopReplayPrefix()
         {
+            if (!IsServer())
+            {
+                return;
+            }
+
             replayOwnerClientIds = new HashSet<ulong>();
             foreach (Player player in MonoBehaviourSingleton<PlayerManager>.Instance.GetReplayPlayers())
             {
@@ -85,6 +100,11 @@ namespace B323ServerSideFixes
 
         private static void ServerStopReplayPostfix()
         {
+            if (!IsServer())
+            {
+                return;
+            }
+
             int despawnedBodyCount = DespawnReplayOwnedObjects<PlayerBody>(ShouldDespawnReplayPlayerBody);
             int despawnedCameraCount = DespawnReplayOwnedObjects<PlayerCamera>(ShouldDespawnReplayPlayerCamera);
             int despawnedStickPositionerCount = DespawnReplayOwnedObjects<StickPositioner>(ShouldDespawnReplayStickPositioner);
@@ -208,6 +228,11 @@ namespace B323ServerSideFixes
         private static bool ShouldDespawnReplayPuck(Puck puck)
         {
             return puck && puck.IsReplay != null && puck.IsReplay.Value;
+        }
+
+        private static bool IsServer()
+        {
+            return NetworkManager.Singleton != null && NetworkManager.Singleton.IsServer;
         }
 
         private static bool IsReplayPlayer(Player player)

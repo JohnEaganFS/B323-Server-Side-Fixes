@@ -1,6 +1,7 @@
 using System;
 using System.Reflection;
 using HarmonyLib;
+using Unity.Netcode;
 using UnityEngine;
 
 namespace B323ServerSideFixes
@@ -28,6 +29,11 @@ namespace B323ServerSideFixes
 
         private static void OnFaceOffStartedPrefix(object __instance)
         {
+            if (!IsServer())
+            {
+                return;
+            }
+
             ReplayManager replayManager = GetReplayManager(__instance);
             if (replayManager == null)
             {
@@ -37,6 +43,11 @@ namespace B323ServerSideFixes
 
             replayManager.Server_StopReplaying();
             replayManager.Server_StopRecording();
+        }
+
+        private static bool IsServer()
+        {
+            return NetworkManager.Singleton != null && NetworkManager.Singleton.IsServer;
         }
 
         private static ReplayManager GetReplayManager(object instance)
