@@ -4,4 +4,6 @@
 /og_src
 /src
 /toasterperformance_src
+/toasterperformance_fixed_reference
+*.log
 *.md

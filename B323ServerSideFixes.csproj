@@ -21,6 +21,8 @@
     <None Include="og_src\**\*.cs" />
     <Compile Remove="toasterperformance_src\**\*.cs" />
     <None Include="toasterperformance_src\**\*.cs" />
+    <Compile Remove="toasterperformance_fixed_reference\**\*.cs" />
+    <None Include="toasterperformance_fixed_reference\**\*.cs" />
   </ItemGroup>
 
   <Target Name="PostBuildMoveDll" AfterTargets="Build">
