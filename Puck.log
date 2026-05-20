@@ -1,0 +1,294 @@
+﻿[2026-05-20 04:14:41.020] [INFO] [37m[VisualElementHarmonyPatch][0m Applying patches
+[2026-05-20 04:14:41.205] [INFO] [37m[PatchManager][0m Patching took 329ms
+[2026-05-20 04:14:41.309] [INFO] [37m[ItemManager][0m Loaded 159 items
+[2026-05-20 04:14:41.319] [INFO] Odin Serializer ArchitectureInfo initialization with defaults (all unaligned read/writes disabled).
+[2026-05-20 04:14:41.319] [INFO] Odin Serializer detected non-white-listed runtime platform LinuxServer; disabling all unaligned memory read/writes.
+[2026-05-20 04:14:41.740] [INFO] [37m[StringUtils][0m Loaded 2726 profanity words and compiled regex
+[2026-05-20 04:14:41.810] [INFO] [37m[ServerManager][0m Deserializing server config from file (./server_config.json)
+[2026-05-20 04:14:41.857] [INFO] [37m[SteamManager][0m Initializing Steam
+[2026-05-20 04:14:41.927] [INFO] [37m[SteamManager][0m Initialized as game server
+[2026-05-20 04:14:41.930] [INFO] [37m[ModManager][0m Loading plugins from /app/Plugins
+[2026-05-20 04:14:42.419] [INFO] [37m[SteamManager][0m Connected to Steam
+[2026-05-20 04:14:42.425] [INFO] [37m[WebsocketManager][0m WebSocket connection started
+[2026-05-20 04:14:42.426] [INFO] [37m[WebsocketManager][0m Creating WebSocket (url: wss://puck2.nasejevs.com, transport: WebSocket)
+[2026-05-20 04:14:42.504] [INFO] [37m[WebsocketManager][0m WebSocket reconnect attempt: 1
+[2026-05-20 04:14:43.365] [INFO] [37m[WebsocketManager][0m WebSocket connected
+[2026-05-20 04:14:43.365] [INFO] [37m[ServerManager][0m Starting uPnP port forwarding for TCP & UDP port 31386
+[2026-05-20 04:14:43.395] [INFO] [37m[uPnPHelper][0m Starting uPnP Port Forwarding || Puck || 31386 UDP
+[2026-05-20 04:14:43.395] [INFO] [37m[uPnPHelper][0m MapPort() - Starting Device Discovery.
+[2026-05-20 04:14:43.396] [INFO] [37m[uPnPHelper][0m Starting uPnP Port Forwarding || Puck || 31386 TCP
+[2026-05-20 04:14:43.396] [INFO] [37m[uPnPHelper][0m MapPort() - Starting Device Discovery.
+[2026-05-20 04:14:43.396] [INFO] [37m[ServerManager][0m Starting Puck listener (323)
+[2026-05-20 04:14:43.419] [INFO] [37m[WebsocketManager][0m WebSocket sending request message serverAuthenticateRequest ({"port":31386,"isPublic":true,"requestId":null,"matchId":null})
+[2026-05-20 04:14:43.555] [INFO] [37m[WebsocketManager][0m WebSocket received message serverData (["serverData",{"id":"e70bb96d-550f-4ea2-a54b-e4d6e8c312f3","ipAddress":"172.239.194.13","port":31386}])
+[2026-05-20 04:14:43.557] [INFO] [37m[WebsocketManager][0m WebSocket received message serverMatchData (["serverMatchData",null])
+[2026-05-20 04:14:43.568] [INFO] [37m[WebsocketManager][0m WebSocket received response to message serverAuthenticateRequest -> serverAuthenticateResponse ([{"success":true}])
+[2026-05-20 04:14:43.719] [INFO] [37m[ApplicationManager][0m Setting target frame rate to 500
+[2026-05-20 04:14:43.733] [INFO] [37m[WhitelistManager][0m Watching whitelisted Steam IDs file whitelisted_steam_ids.json
+[2026-05-20 04:14:43.734] [INFO] [37m[AdminManager][0m Watching admin Steam IDs file admin_steam_ids.json
+[2026-05-20 04:14:43.738] [INFO] [37m[GameModeManager][0m Selected game mode PublicGameMode`1
+[2026-05-20 04:14:43.739] [INFO] [37m[BanManager][0m Watching banned Steam IDs file banned_steam_ids.json
+[2026-05-20 04:14:43.740] [INFO] [37m[BanManager][0m Watching banned IP addresses file banned_ip_addresses.json
+[2026-05-20 04:14:43.741] [INFO] [37m[SceneManager][0m Loading server scene level_default
+[2026-05-20 04:14:43.741] [INFO] [37m[TCPServer][0m Server started on port 31386
+[2026-05-20 04:14:43.753] [INFO] [37m[SceneManager][0m Server started loading scene
+[2026-05-20 04:14:43.755] [INFO] [37m[SteamWorkshopManager][0m Downloading item 3729408309
+[2026-05-20 04:14:43.801] [INFO] [37m[SceneManager][0m Client 0 completed scene unload
+[2026-05-20 04:14:43.850] [INFO] [37m[PuckManager][0m Added puck position for phase Warmup
+[2026-05-20 04:14:43.850] [INFO] [37m[PuckManager][0m Added puck position for phase Warmup
+[2026-05-20 04:14:43.850] [INFO] [37m[PuckManager][0m Added puck position for phase Warmup
+[2026-05-20 04:14:43.854] [INFO] [37m[PuckManager][0m Added puck position for phase Warmup
+[2026-05-20 04:14:43.854] [INFO] [37m[PuckManager][0m Added puck position for phase Warmup
+[2026-05-20 04:14:43.855] [INFO] [37m[PuckManager][0m Added puck position for phase Warmup
+[2026-05-20 04:14:43.855] [INFO] [37m[PuckManager][0m Added puck position for phase Warmup
+[2026-05-20 04:14:43.855] [INFO] [37m[PuckManager][0m Added puck position for phase Warmup
+[2026-05-20 04:14:43.855] [INFO] [37m[PuckManager][0m Added puck position for phase Warmup
+[2026-05-20 04:14:43.855] [INFO] [37m[PuckManager][0m Added puck position for phase Play
+[2026-05-20 04:14:43.856] [INFO] [37m[PuckManager][0m Added puck position for phase Warmup
+[2026-05-20 04:14:43.859] [INFO] [37m[PuckManager][0m Added puck position for phase Warmup
+[2026-05-20 04:14:43.862] [INFO] [37m[SceneManager][0m Client 0 completed scene load
+[2026-05-20 04:14:43.866] [INFO] [37m[SceneManager][0m Scene load event completed on server
+[2026-05-20 04:14:43.866] [INFO] [37m[ConnectionApprovalManager][0m Consuming 0 buffered connection approvals
+[2026-05-20 04:14:43.867] [INFO] [37m[GameModeManager][0m Enabling game mode PublicGameMode`1
+[2026-05-20 04:14:43.868] [INFO] [37m[PublicGameMode`1][0m Deserializing config from file (./public_game_mode_config.json)
+[2026-05-20 04:14:43.890] [INFO] [37m[PuckManager][0m Despawning 0 pucks (includeReplay: False)
+[2026-05-20 04:14:43.890] [INFO] [37m[PuckManager][0m Spawning pucks for phase Warmup
+[2026-05-20 04:14:43.900] [INFO] [37m[PuckManager][0m Spawned puck 34
+[2026-05-20 04:14:43.900] [INFO] [37m[PuckManager][0m Spawned puck 35
+[2026-05-20 04:14:43.901] [INFO] [37m[PuckManager][0m Spawned puck 36
+[2026-05-20 04:14:43.904] [INFO] [37m[PuckManager][0m Spawned puck 37
+[2026-05-20 04:14:43.905] [INFO] [37m[PuckManager][0m Spawned puck 38
+[2026-05-20 04:14:43.906] [INFO] [37m[PuckManager][0m Spawned puck 39
+[2026-05-20 04:14:43.906] [INFO] [37m[PuckManager][0m Spawned puck 40
+[2026-05-20 04:14:43.907] [INFO] [37m[PuckManager][0m Spawned puck 41
+[2026-05-20 04:14:43.907] [INFO] [37m[PuckManager][0m Spawned puck 42
+[2026-05-20 04:14:43.908] [INFO] [37m[PuckManager][0m Spawned puck 43
+[2026-05-20 04:14:43.908] [INFO] [37m[PuckManager][0m Spawned puck 44
+[2026-05-20 04:14:46.006] [INFO] [37m[ModManager][0m Adding mod 3729408309
+[2026-05-20 04:14:46.025] [INFO] [ToasterPerformance] Enabling 0.1.0...
+[2026-05-20 04:14:46.026] [INFO] [ToasterPerformance] Environment: dedicated server.
+[2026-05-20 04:14:46.026] [INFO] [ToasterPerformance] Patching methods...
+[2026-05-20 04:14:46.341] [INFO] [ToasterPerformance] All patched!
+[2026-05-20 04:14:46.566] [INFO] [37m[SteamWorkshopItemDetails][0m Downloading preview texture from https://images.steamusercontent.com/ugc/15786891728193738594/7781E97F9F0BBD8A387DC262D6753470C1E94E82/
+[2026-05-20 04:14:58.354] [INFO] [37m[ConnectionApprovalManager][0m Started connection approval for client 1
+[2026-05-20 04:14:58.367] [INFO] [37m[ConnectionApprovalManager][0m Rejected connection for client 1: Missing password
+[2026-05-20 04:14:58.390] [INFO] [37m[ServerManagerController][0m Client disconnected (1) 0/1
+[2026-05-20 04:14:58.835] [INFO] [37m[ConnectionApprovalManager][0m Started connection approval for client 2
+[2026-05-20 04:14:58.837] [INFO] [37m[ConnectionApprovalManager][0m Rejected connection for client 2: Missing mods
+[2026-05-20 04:14:58.838] [INFO] [37m[ServerManagerController][0m Client disconnected (2) 0/1
+[2026-05-20 04:15:00.121] [INFO] [37m[ConnectionApprovalManager][0m Started connection approval for client 3
+[2026-05-20 04:15:00.122] [INFO] [37m[WebsocketManager][0m WebSocket sending request message serverConnectionApprovalRequest ({"steamId":"76561198048043359","key":"192c4951-e73a-4bb8-b155-f9590478f635"})
+[2026-05-20 04:15:00.259] [INFO] [37m[WebsocketManager][0m WebSocket received response to message serverConnectionApprovalRequest -> serverConnectionApprovalResponse ([{"success":true,"data":{"playerData":{"steamId":"76561198048043359","username":"John","number":35,"usernameChangedAt":1741741625000,"patreonLevel":1,"mmr":1050,"adminLevel":0,"items":[{"id":1223,"itemId":2566},{"id":1224,"itemId":3072},{"id":14741,"itemId":3075}],"mutes":[],"bans":[],"cooldowns":[]}}}])
+[2026-05-20 04:15:00.273] [INFO] [37m[ConnectionApprovalManager][0m Approved connection for client 3
+[2026-05-20 04:15:00.852] [INFO] [37m[SceneManager][0m Client 3 completed scene load
+[2026-05-20 04:15:00.853] [INFO] [37m[SceneManager][0m Client 3 completed scene synchronization
+[2026-05-20 04:15:00.857] [INFO] [37m[ServerManagerController][0m Client connected (3) 1/1
+[2026-05-20 04:15:00.858] [INFO] [37m[PlayerManagerController][0m Event_Server_OnApprovedClientConnected
+[2026-05-20 04:15:00.868] [INFO] [37m[Player][0m Spawning Player (3)
+[2026-05-20 04:15:00.898] [INFO] [37m[PlayerManager][0m Spawned player (3)
+[2026-05-20 04:15:02.180] [INFO] [37m[PlayerPosition][0m Position C claimed by 3
+[2026-05-20 04:15:02.182] [INFO] [37m[Player][0m Spawning character (3)
+[2026-05-20 04:15:02.183] [INFO] [37m[Player][0m Spawning PlayerBody (3)
+[2026-05-20 04:15:02.211] [INFO] [37m[Player][0m Spawning PlayerCamera (3)
+[2026-05-20 04:15:02.212] [INFO] [37m[Player][0m Spawning StickPositioner (3)
+[2026-05-20 04:15:02.214] [INFO] [37m[Player][0m Spawning Stick (3)
+[2026-05-20 04:15:05.575] [INFO] [37m[ChatManager][0m Received chat message from player John (3): /vs
+[2026-05-20 04:15:05.583] [INFO] [37m[Player][0m Despawning character (3)
+[2026-05-20 04:15:05.583] [INFO] [37m[Player][0m Despawning PlayerBody (3)
+[2026-05-20 04:15:05.583] [INFO] [37m[Player][0m Despawning PlayerCamera (3)
+[2026-05-20 04:15:05.591] [INFO] [37m[Player][0m Despawning StickPositioner (3)
+[2026-05-20 04:15:05.594] [INFO] [37m[Player][0m Despawning Stick (3)
+[2026-05-20 04:15:05.595] [INFO] [37m[PlayerPosition][0m Position C unclaimed
+[2026-05-20 04:15:05.597] [INFO] [37m[PuckManager][0m Despawning 11 pucks (includeReplay: False)
+[2026-05-20 04:15:05.599] [INFO] [ToasterPerformance] PuckCacheDiag: RemovePuck postfix puckId=34, isReplay=False: dirty=True, rawAll=10, rawNoReplay=10, rawReplay=0, cachedAll=0, cachedNoReplay=0, cachedReplay=0, liveAll=11, liveNoReplay=11, liveReplay=0, getPucksCalls=0, getReplayCalls=0, rebuilds=0.
+[2026-05-20 04:15:05.599] [INFO] [37m[PuckManager][0m Despawned puck 34
+[2026-05-20 04:15:05.600] [INFO] [ToasterPerformance] PuckCacheDiag: RemovePuck postfix puckId=35, isReplay=False: dirty=True, rawAll=9, rawNoReplay=9, rawReplay=0, cachedAll=0, cachedNoReplay=0, cachedReplay=0, liveAll=11, liveNoReplay=11, liveReplay=0, getPucksCalls=0, getReplayCalls=0, rebuilds=0.
+[2026-05-20 04:15:05.600] [INFO] [37m[PuckManager][0m Despawned puck 35
+[2026-05-20 04:15:05.600] [INFO] [ToasterPerformance] PuckCacheDiag: RemovePuck postfix puckId=36, isReplay=False: dirty=True, rawAll=8, rawNoReplay=8, rawReplay=0, cachedAll=0, cachedNoReplay=0, cachedReplay=0, liveAll=11, liveNoReplay=11, liveReplay=0, getPucksCalls=0, getReplayCalls=0, rebuilds=0.
+[2026-05-20 04:15:05.600] [INFO] [37m[PuckManager][0m Despawned puck 36
+[2026-05-20 04:15:05.601] [INFO] [ToasterPerformance] PuckCacheDiag: RemovePuck postfix puckId=37, isReplay=False: dirty=True, rawAll=7, rawNoReplay=7, rawReplay=0, cachedAll=0, cachedNoReplay=0, cachedReplay=0, liveAll=11, liveNoReplay=11, liveReplay=0, getPucksCalls=0, getReplayCalls=0, rebuilds=0.
+[2026-05-20 04:15:05.601] [INFO] [37m[PuckManager][0m Despawned puck 37
+[2026-05-20 04:15:05.601] [INFO] [ToasterPerformance] PuckCacheDiag: RemovePuck postfix puckId=38, isReplay=False: dirty=True, rawAll=6, rawNoReplay=6, rawReplay=0, cachedAll=0, cachedNoReplay=0, cachedReplay=0, liveAll=11, liveNoReplay=11, liveReplay=0, getPucksCalls=0, getReplayCalls=0, rebuilds=0.
+[2026-05-20 04:15:05.601] [INFO] [37m[PuckManager][0m Despawned puck 38
+[2026-05-20 04:15:05.602] [INFO] [ToasterPerformance] PuckCacheDiag: RemovePuck postfix puckId=39, isReplay=False: dirty=True, rawAll=5, rawNoReplay=5, rawReplay=0, cachedAll=0, cachedNoReplay=0, cachedReplay=0, liveAll=11, liveNoReplay=11, liveReplay=0, getPucksCalls=0, getReplayCalls=0, rebuilds=0.
+[2026-05-20 04:15:05.602] [INFO] [37m[PuckManager][0m Despawned puck 39
+[2026-05-20 04:15:05.602] [INFO] [ToasterPerformance] PuckCacheDiag: RemovePuck postfix puckId=40, isReplay=False: dirty=True, rawAll=4, rawNoReplay=4, rawReplay=0, cachedAll=0, cachedNoReplay=0, cachedReplay=0, liveAll=11, liveNoReplay=11, liveReplay=0, getPucksCalls=0, getReplayCalls=0, rebuilds=0.
+[2026-05-20 04:15:05.602] [INFO] [37m[PuckManager][0m Despawned puck 40
+[2026-05-20 04:15:05.602] [INFO] [ToasterPerformance] PuckCacheDiag: RemovePuck postfix puckId=41, isReplay=False: dirty=True, rawAll=3, rawNoReplay=3, rawReplay=0, cachedAll=0, cachedNoReplay=0, cachedReplay=0, liveAll=11, liveNoReplay=11, liveReplay=0, getPucksCalls=0, getReplayCalls=0, rebuilds=0.
+[2026-05-20 04:15:05.602] [INFO] [37m[PuckManager][0m Despawned puck 41
+[2026-05-20 04:15:05.603] [INFO] [ToasterPerformance] PuckCacheDiag: RemovePuck postfix puckId=42, isReplay=False: dirty=True, rawAll=2, rawNoReplay=2, rawReplay=0, cachedAll=0, cachedNoReplay=0, cachedReplay=0, liveAll=11, liveNoReplay=11, liveReplay=0, getPucksCalls=0, getReplayCalls=0, rebuilds=0.
+[2026-05-20 04:15:05.603] [INFO] [37m[PuckManager][0m Despawned puck 42
+[2026-05-20 04:15:05.603] [INFO] [ToasterPerformance] PuckCacheDiag: RemovePuck postfix puckId=43, isReplay=False: dirty=True, rawAll=1, rawNoReplay=1, rawReplay=0, cachedAll=0, cachedNoReplay=0, cachedReplay=0, liveAll=11, liveNoReplay=11, liveReplay=0, getPucksCalls=0, getReplayCalls=0, rebuilds=0.
+[2026-05-20 04:15:05.603] [INFO] [37m[PuckManager][0m Despawned puck 43
+[2026-05-20 04:15:05.603] [INFO] [ToasterPerformance] PuckCacheDiag: RemovePuck postfix puckId=44, isReplay=False: dirty=True, rawAll=0, rawNoReplay=0, rawReplay=0, cachedAll=0, cachedNoReplay=0, cachedReplay=0, liveAll=11, liveNoReplay=11, liveReplay=0, getPucksCalls=0, getReplayCalls=0, rebuilds=0.
+[2026-05-20 04:15:05.603] [INFO] [37m[PuckManager][0m Despawned puck 44
+[2026-05-20 04:15:05.604] [INFO] [37m[ReplayRecorder][0m Replay recording started at 15 ticks per second
+[2026-05-20 04:15:05.606] [INFO] [ToasterPerformance] PuckCacheDiag: GetPucks rebuilding includeReplay=False: dirty=True, rawAll=0, rawNoReplay=0, rawReplay=0, cachedAll=0, cachedNoReplay=0, cachedReplay=0, liveAll=11, liveNoReplay=11, liveReplay=0, getPucksCalls=1, getReplayCalls=0, rebuilds=0.
+[2026-05-20 04:15:05.607] [INFO] [ToasterPerformance] PuckCacheDiag: RebuildPuckCache rawBefore=0 rawAfter=0: dirty=False, rawAll=0, rawNoReplay=0, rawReplay=0, cachedAll=0, cachedNoReplay=0, cachedReplay=0, liveAll=11, liveNoReplay=11, liveReplay=0, getPucksCalls=1, getReplayCalls=0, rebuilds=1.
+[2026-05-20 04:15:05.607] [INFO] [ToasterPerformance] PuckCacheDiag: GetPucks result includeReplay=False resultCount=0: dirty=False, rawAll=0, rawNoReplay=0, rawReplay=0, cachedAll=0, cachedNoReplay=0, cachedReplay=0, liveAll=11, liveNoReplay=11, liveReplay=0, getPucksCalls=1, getReplayCalls=0, rebuilds=1.
+[2026-05-20 04:15:05.664] [INFO] [ToasterPerformance] PuckCacheDiag: GetPucks result includeReplay=False resultCount=0: dirty=False, rawAll=0, rawNoReplay=0, rawReplay=0, cachedAll=0, cachedNoReplay=0, cachedReplay=0, liveAll=0, liveNoReplay=0, liveReplay=0, getPucksCalls=2, getReplayCalls=0, rebuilds=1.
+[2026-05-20 04:15:05.730] [INFO] [ToasterPerformance] PuckCacheDiag: GetPucks result includeReplay=False resultCount=0: dirty=False, rawAll=0, rawNoReplay=0, rawReplay=0, cachedAll=0, cachedNoReplay=0, cachedReplay=0, liveAll=0, liveNoReplay=0, liveReplay=0, getPucksCalls=3, getReplayCalls=0, rebuilds=1.
+[2026-05-20 04:15:05.795] [INFO] [ToasterPerformance] PuckCacheDiag: GetPucks result includeReplay=False resultCount=0: dirty=False, rawAll=0, rawNoReplay=0, rawReplay=0, cachedAll=0, cachedNoReplay=0, cachedReplay=0, liveAll=0, liveNoReplay=0, liveReplay=0, getPucksCalls=4, getReplayCalls=0, rebuilds=1.
+[2026-05-20 04:15:05.861] [INFO] [ToasterPerformance] PuckCacheDiag: GetPucks result includeReplay=False resultCount=0: dirty=False, rawAll=0, rawNoReplay=0, rawReplay=0, cachedAll=0, cachedNoReplay=0, cachedReplay=0, liveAll=0, liveNoReplay=0, liveReplay=0, getPucksCalls=5, getReplayCalls=0, rebuilds=1.
+[2026-05-20 04:15:05.928] [INFO] [ToasterPerformance] PuckCacheDiag: GetPucks result includeReplay=False resultCount=0: dirty=False, rawAll=0, rawNoReplay=0, rawReplay=0, cachedAll=0, cachedNoReplay=0, cachedReplay=0, liveAll=0, liveNoReplay=0, liveReplay=0, getPucksCalls=6, getReplayCalls=0, rebuilds=1.
+[2026-05-20 04:15:05.994] [INFO] [ToasterPerformance] PuckCacheDiag: GetPucks result includeReplay=False resultCount=0: dirty=False, rawAll=0, rawNoReplay=0, rawReplay=0, cachedAll=0, cachedNoReplay=0, cachedReplay=0, liveAll=0, liveNoReplay=0, liveReplay=0, getPucksCalls=7, getReplayCalls=0, rebuilds=1.
+[2026-05-20 04:15:06.062] [INFO] [ToasterPerformance] PuckCacheDiag: GetPucks result includeReplay=False resultCount=0: dirty=False, rawAll=0, rawNoReplay=0, rawReplay=0, cachedAll=0, cachedNoReplay=0, cachedReplay=0, liveAll=0, liveNoReplay=0, liveReplay=0, getPucksCalls=8, getReplayCalls=0, rebuilds=1.
+[2026-05-20 04:15:06.128] [INFO] [ToasterPerformance] PuckCacheDiag: GetPucks result includeReplay=False resultCount=0: dirty=False, rawAll=0, rawNoReplay=0, rawReplay=0, cachedAll=0, cachedNoReplay=0, cachedReplay=0, liveAll=0, liveNoReplay=0, liveReplay=0, getPucksCalls=9, getReplayCalls=0, rebuilds=1.
+[2026-05-20 04:15:06.194] [INFO] [ToasterPerformance] PuckCacheDiag: GetPucks result includeReplay=False resultCount=0: dirty=False, rawAll=0, rawNoReplay=0, rawReplay=0, cachedAll=0, cachedNoReplay=0, cachedReplay=0, liveAll=0, liveNoReplay=0, liveReplay=0, getPucksCalls=10, getReplayCalls=0, rebuilds=1.
+[2026-05-20 04:15:06.263] [INFO] [ToasterPerformance] PuckCacheDiag: GetPucks result includeReplay=False resultCount=0: dirty=False, rawAll=0, rawNoReplay=0, rawReplay=0, cachedAll=0, cachedNoReplay=0, cachedReplay=0, liveAll=0, liveNoReplay=0, liveReplay=0, getPucksCalls=11, getReplayCalls=0, rebuilds=1.
+[2026-05-20 04:15:06.329] [INFO] [ToasterPerformance] PuckCacheDiag: GetPucks result includeReplay=False resultCount=0: dirty=False, rawAll=0, rawNoReplay=0, rawReplay=0, cachedAll=0, cachedNoReplay=0, cachedReplay=0, liveAll=0, liveNoReplay=0, liveReplay=0, getPucksCalls=12, getReplayCalls=0, rebuilds=1.
+[2026-05-20 04:15:06.395] [INFO] [ToasterPerformance] PuckCacheDiag: GetPucks result includeReplay=False resultCount=0: dirty=False, rawAll=0, rawNoReplay=0, rawReplay=0, cachedAll=0, cachedNoReplay=0, cachedReplay=0, liveAll=0, liveNoReplay=0, liveReplay=0, getPucksCalls=13, getReplayCalls=0, rebuilds=1.
+[2026-05-20 04:15:06.463] [INFO] [ToasterPerformance] PuckCacheDiag: GetPucks result includeReplay=False resultCount=0: dirty=False, rawAll=0, rawNoReplay=0, rawReplay=0, cachedAll=0, cachedNoReplay=0, cachedReplay=0, liveAll=0, liveNoReplay=0, liveReplay=0, getPucksCalls=14, getReplayCalls=0, rebuilds=1.
+[2026-05-20 04:15:06.529] [INFO] [ToasterPerformance] PuckCacheDiag: GetPucks result includeReplay=False resultCount=0: dirty=False, rawAll=0, rawNoReplay=0, rawReplay=0, cachedAll=0, cachedNoReplay=0, cachedReplay=0, liveAll=0, liveNoReplay=0, liveReplay=0, getPucksCalls=15, getReplayCalls=0, rebuilds=1.
+[2026-05-20 04:15:06.595] [INFO] [ToasterPerformance] PuckCacheDiag: GetPucks result includeReplay=False resultCount=0: dirty=False, rawAll=0, rawNoReplay=0, rawReplay=0, cachedAll=0, cachedNoReplay=0, cachedReplay=0, liveAll=0, liveNoReplay=0, liveReplay=0, getPucksCalls=16, getReplayCalls=0, rebuilds=1.
+[2026-05-20 04:15:06.663] [INFO] [ToasterPerformance] PuckCacheDiag: GetPucks result includeReplay=False resultCount=0: dirty=False, rawAll=0, rawNoReplay=0, rawReplay=0, cachedAll=0, cachedNoReplay=0, cachedReplay=0, liveAll=0, liveNoReplay=0, liveReplay=0, getPucksCalls=17, getReplayCalls=0, rebuilds=1.
+[2026-05-20 04:15:06.676] [INFO] [37m[PlayerPosition][0m Position C claimed by 3
+[2026-05-20 04:15:06.677] [INFO] [37m[Player][0m Spawning character (3)
+[2026-05-20 04:15:06.677] [INFO] [37m[Player][0m Spawning PlayerBody (3)
+[2026-05-20 04:15:06.679] [INFO] [37m[Player][0m Spawning PlayerCamera (3)
+[2026-05-20 04:15:06.679] [INFO] [37m[Player][0m Spawning StickPositioner (3)
+[2026-05-20 04:15:06.680] [INFO] [37m[Player][0m Spawning Stick (3)
+[2026-05-20 04:15:06.728] [INFO] [ToasterPerformance] PuckCacheDiag: GetPucks result includeReplay=False resultCount=0: dirty=False, rawAll=0, rawNoReplay=0, rawReplay=0, cachedAll=0, cachedNoReplay=0, cachedReplay=0, liveAll=0, liveNoReplay=0, liveReplay=0, getPucksCalls=18, getReplayCalls=0, rebuilds=1.
+[2026-05-20 04:15:06.796] [INFO] [ToasterPerformance] PuckCacheDiag: GetPucks result includeReplay=False resultCount=0: dirty=False, rawAll=0, rawNoReplay=0, rawReplay=0, cachedAll=0, cachedNoReplay=0, cachedReplay=0, liveAll=0, liveNoReplay=0, liveReplay=0, getPucksCalls=19, getReplayCalls=0, rebuilds=1.
+[2026-05-20 04:15:06.863] [INFO] [ToasterPerformance] PuckCacheDiag: GetPucks result includeReplay=False resultCount=0: dirty=False, rawAll=0, rawNoReplay=0, rawReplay=0, cachedAll=0, cachedNoReplay=0, cachedReplay=0, liveAll=0, liveNoReplay=0, liveReplay=0, getPucksCalls=20, getReplayCalls=0, rebuilds=1.
+[2026-05-20 04:15:06.928] [INFO] [ToasterPerformance] PuckCacheDiag: GetPucks result includeReplay=False resultCount=0: dirty=False, rawAll=0, rawNoReplay=0, rawReplay=0, cachedAll=0, cachedNoReplay=0, cachedReplay=0, liveAll=0, liveNoReplay=0, liveReplay=0, getPucksCalls=21, getReplayCalls=0, rebuilds=1.
+[2026-05-20 04:15:06.996] [INFO] [ToasterPerformance] PuckCacheDiag: GetPucks result includeReplay=False resultCount=0: dirty=False, rawAll=0, rawNoReplay=0, rawReplay=0, cachedAll=0, cachedNoReplay=0, cachedReplay=0, liveAll=0, liveNoReplay=0, liveReplay=0, getPucksCalls=22, getReplayCalls=0, rebuilds=1.
+[2026-05-20 04:15:07.063] [INFO] [ToasterPerformance] PuckCacheDiag: GetPucks result includeReplay=False resultCount=0: dirty=False, rawAll=0, rawNoReplay=0, rawReplay=0, cachedAll=0, cachedNoReplay=0, cachedReplay=0, liveAll=0, liveNoReplay=0, liveReplay=0, getPucksCalls=23, getReplayCalls=0, rebuilds=1.
+[2026-05-20 04:15:07.129] [INFO] [ToasterPerformance] PuckCacheDiag: GetPucks result includeReplay=False resultCount=0: dirty=False, rawAll=0, rawNoReplay=0, rawReplay=0, cachedAll=0, cachedNoReplay=0, cachedReplay=0, liveAll=0, liveNoReplay=0, liveReplay=0, getPucksCalls=24, getReplayCalls=0, rebuilds=1.
+[2026-05-20 04:15:07.196] [INFO] [ToasterPerformance] PuckCacheDiag: GetPucks result includeReplay=False resultCount=0: dirty=False, rawAll=0, rawNoReplay=0, rawReplay=0, cachedAll=0, cachedNoReplay=0, cachedReplay=0, liveAll=0, liveNoReplay=0, liveReplay=0, getPucksCalls=25, getReplayCalls=0, rebuilds=1.
+[2026-05-20 04:15:07.263] [INFO] [ToasterPerformance] PuckCacheDiag: GetPucks result includeReplay=False resultCount=0: dirty=False, rawAll=0, rawNoReplay=0, rawReplay=0, cachedAll=0, cachedNoReplay=0, cachedReplay=0, liveAll=0, liveNoReplay=0, liveReplay=0, getPucksCalls=26, getReplayCalls=0, rebuilds=1.
+[2026-05-20 04:15:07.329] [INFO] [ToasterPerformance] PuckCacheDiag: GetPucks result includeReplay=False resultCount=0: dirty=False, rawAll=0, rawNoReplay=0, rawReplay=0, cachedAll=0, cachedNoReplay=0, cachedReplay=0, liveAll=0, liveNoReplay=0, liveReplay=0, getPucksCalls=27, getReplayCalls=0, rebuilds=1.
+[2026-05-20 04:15:07.395] [INFO] [ToasterPerformance] PuckCacheDiag: GetPucks result includeReplay=False resultCount=0: dirty=False, rawAll=0, rawNoReplay=0, rawReplay=0, cachedAll=0, cachedNoReplay=0, cachedReplay=0, liveAll=0, liveNoReplay=0, liveReplay=0, getPucksCalls=28, getReplayCalls=0, rebuilds=1.
+[2026-05-20 04:15:07.463] [INFO] [ToasterPerformance] PuckCacheDiag: GetPucks result includeReplay=False resultCount=0: dirty=False, rawAll=0, rawNoReplay=0, rawReplay=0, cachedAll=0, cachedNoReplay=0, cachedReplay=0, liveAll=0, liveNoReplay=0, liveReplay=0, getPucksCalls=29, getReplayCalls=0, rebuilds=1.
+[2026-05-20 04:15:07.529] [INFO] [ToasterPerformance] PuckCacheDiag: GetPucks result includeReplay=False resultCount=0: dirty=False, rawAll=0, rawNoReplay=0, rawReplay=0, cachedAll=0, cachedNoReplay=0, cachedReplay=0, liveAll=0, liveNoReplay=0, liveReplay=0, getPucksCalls=30, getReplayCalls=0, rebuilds=1.
+[2026-05-20 04:15:07.595] [INFO] [ToasterPerformance] PuckCacheDiag: GetPucks result includeReplay=False resultCount=0: dirty=False, rawAll=0, rawNoReplay=0, rawReplay=0, cachedAll=0, cachedNoReplay=0, cachedReplay=0, liveAll=0, liveNoReplay=0, liveReplay=0, getPucksCalls=31, getReplayCalls=0, rebuilds=1.
+[2026-05-20 04:15:07.663] [INFO] [ToasterPerformance] PuckCacheDiag: GetPucks result includeReplay=False resultCount=0: dirty=False, rawAll=0, rawNoReplay=0, rawReplay=0, cachedAll=0, cachedNoReplay=0, cachedReplay=0, liveAll=0, liveNoReplay=0, liveReplay=0, getPucksCalls=32, getReplayCalls=0, rebuilds=1.
+[2026-05-20 04:15:07.729] [INFO] [ToasterPerformance] PuckCacheDiag: GetPucks result includeReplay=False resultCount=0: dirty=False, rawAll=0, rawNoReplay=0, rawReplay=0, cachedAll=0, cachedNoReplay=0, cachedReplay=0, liveAll=0, liveNoReplay=0, liveReplay=0, getPucksCalls=33, getReplayCalls=0, rebuilds=1.
+[2026-05-20 04:15:07.795] [INFO] [ToasterPerformance] PuckCacheDiag: GetPucks result includeReplay=False resultCount=0: dirty=False, rawAll=0, rawNoReplay=0, rawReplay=0, cachedAll=0, cachedNoReplay=0, cachedReplay=0, liveAll=0, liveNoReplay=0, liveReplay=0, getPucksCalls=34, getReplayCalls=0, rebuilds=1.
+[2026-05-20 04:15:07.863] [INFO] [ToasterPerformance] PuckCacheDiag: GetPucks result includeReplay=False resultCount=0: dirty=False, rawAll=0, rawNoReplay=0, rawReplay=0, cachedAll=0, cachedNoReplay=0, cachedReplay=0, liveAll=0, liveNoReplay=0, liveReplay=0, getPucksCalls=35, getReplayCalls=0, rebuilds=1.
+[2026-05-20 04:15:07.929] [INFO] [ToasterPerformance] PuckCacheDiag: GetPucks result includeReplay=False resultCount=0: dirty=False, rawAll=0, rawNoReplay=0, rawReplay=0, cachedAll=0, cachedNoReplay=0, cachedReplay=0, liveAll=0, liveNoReplay=0, liveReplay=0, getPucksCalls=36, getReplayCalls=0, rebuilds=1.
+[2026-05-20 04:15:07.995] [INFO] [ToasterPerformance] PuckCacheDiag: GetPucks result includeReplay=False resultCount=0: dirty=False, rawAll=0, rawNoReplay=0, rawReplay=0, cachedAll=0, cachedNoReplay=0, cachedReplay=0, liveAll=0, liveNoReplay=0, liveReplay=0, getPucksCalls=37, getReplayCalls=0, rebuilds=1.
+[2026-05-20 04:15:08.061] [INFO] [ToasterPerformance] PuckCacheDiag: GetPucks result includeReplay=False resultCount=0: dirty=False, rawAll=0, rawNoReplay=0, rawReplay=0, cachedAll=0, cachedNoReplay=0, cachedReplay=0, liveAll=0, liveNoReplay=0, liveReplay=0, getPucksCalls=38, getReplayCalls=0, rebuilds=1.
+[2026-05-20 04:15:08.129] [INFO] [ToasterPerformance] PuckCacheDiag: GetPucks result includeReplay=False resultCount=0: dirty=False, rawAll=0, rawNoReplay=0, rawReplay=0, cachedAll=0, cachedNoReplay=0, cachedReplay=0, liveAll=0, liveNoReplay=0, liveReplay=0, getPucksCalls=39, getReplayCalls=0, rebuilds=1.
+[2026-05-20 04:15:08.196] [INFO] [ToasterPerformance] PuckCacheDiag: GetPucks result includeReplay=False resultCount=0: dirty=False, rawAll=0, rawNoReplay=0, rawReplay=0, cachedAll=0, cachedNoReplay=0, cachedReplay=0, liveAll=0, liveNoReplay=0, liveReplay=0, getPucksCalls=40, getReplayCalls=0, rebuilds=1.
+[2026-05-20 04:15:08.261] [INFO] [ToasterPerformance] PuckCacheDiag: GetPucks result includeReplay=False resultCount=0: dirty=False, rawAll=0, rawNoReplay=0, rawReplay=0, cachedAll=0, cachedNoReplay=0, cachedReplay=0, liveAll=0, liveNoReplay=0, liveReplay=0, getPucksCalls=41, getReplayCalls=0, rebuilds=1.
+[2026-05-20 04:15:08.329] [INFO] [ToasterPerformance] PuckCacheDiag: GetPucks result includeReplay=False resultCount=0: dirty=False, rawAll=0, rawNoReplay=0, rawReplay=0, cachedAll=0, cachedNoReplay=0, cachedReplay=0, liveAll=0, liveNoReplay=0, liveReplay=0, getPucksCalls=42, getReplayCalls=0, rebuilds=1.
+[2026-05-20 04:15:08.395] [INFO] [ToasterPerformance] PuckCacheDiag: GetPucks result includeReplay=False resultCount=0: dirty=False, rawAll=0, rawNoReplay=0, rawReplay=0, cachedAll=0, cachedNoReplay=0, cachedReplay=0, liveAll=0, liveNoReplay=0, liveReplay=0, getPucksCalls=43, getReplayCalls=0, rebuilds=1.
+[2026-05-20 04:15:08.461] [INFO] [ToasterPerformance] PuckCacheDiag: GetPucks result includeReplay=False resultCount=0: dirty=False, rawAll=0, rawNoReplay=0, rawReplay=0, cachedAll=0, cachedNoReplay=0, cachedReplay=0, liveAll=0, liveNoReplay=0, liveReplay=0, getPucksCalls=44, getReplayCalls=0, rebuilds=1.
+[2026-05-20 04:15:08.529] [INFO] [ToasterPerformance] PuckCacheDiag: GetPucks result includeReplay=False resultCount=0: dirty=False, rawAll=0, rawNoReplay=0, rawReplay=0, cachedAll=0, cachedNoReplay=0, cachedReplay=0, liveAll=0, liveNoReplay=0, liveReplay=0, getPucksCalls=45, getReplayCalls=0, rebuilds=1.
+[2026-05-20 04:15:08.576] [INFO] [37m[PuckManager][0m Spawning pucks for phase Play
+[2026-05-20 04:15:08.577] [INFO] [37m[PuckManager][0m Spawned puck 54
+[2026-05-20 04:15:08.596] [INFO] [ToasterPerformance] PuckCacheDiag: GetPucks cache mismatch includeReplay=False: dirty=True, rawAll=1, rawNoReplay=1, rawReplay=0, cachedAll=0, cachedNoReplay=0, cachedReplay=0, liveAll=1, liveNoReplay=1, liveReplay=0, getPucksCalls=46, getReplayCalls=0, rebuilds=1.
+[2026-05-20 04:15:08.596] [INFO] [ToasterPerformance] PuckCacheDiag: GetPucks rebuilding includeReplay=False: dirty=True, rawAll=1, rawNoReplay=1, rawReplay=0, cachedAll=0, cachedNoReplay=0, cachedReplay=0, liveAll=1, liveNoReplay=1, liveReplay=0, getPucksCalls=46, getReplayCalls=0, rebuilds=1.
+[2026-05-20 04:15:08.597] [INFO] [ToasterPerformance] PuckCacheDiag: RebuildPuckCache rawBefore=1 rawAfter=1: dirty=False, rawAll=1, rawNoReplay=1, rawReplay=0, cachedAll=1, cachedNoReplay=1, cachedReplay=0, liveAll=1, liveNoReplay=1, liveReplay=0, getPucksCalls=46, getReplayCalls=0, rebuilds=2.
+[2026-05-20 04:15:12.195] [INFO] [ToasterPerformance] PuckCacheDiag: GetPucks includeReplay=False resultCount=1 periodic: dirty=False, rawAll=1, rawNoReplay=1, rawReplay=0, cachedAll=1, cachedNoReplay=1, cachedReplay=0, liveAll=1, liveNoReplay=1, liveReplay=0, getPucksCalls=100, getReplayCalls=0, rebuilds=2.
+[2026-05-20 04:15:18.593] [INFO] [37m[ReplayRecorder][0m Replay recording stopped
+[2026-05-20 04:15:18.593] [INFO] [37m[PuckManager][0m Despawning 1 pucks (includeReplay: False)
+[2026-05-20 04:15:18.594] [INFO] [ToasterPerformance] PuckCacheDiag: RemovePuck postfix puckId=54, isReplay=False: dirty=True, rawAll=0, rawNoReplay=0, rawReplay=0, cachedAll=1, cachedNoReplay=1, cachedReplay=0, liveAll=1, liveNoReplay=1, liveReplay=0, getPucksCalls=195, getReplayCalls=0, rebuilds=2.
+[2026-05-20 04:15:18.594] [INFO] [37m[PuckManager][0m Despawned puck 54
+[2026-05-20 04:15:18.599] [INFO] [ToasterPerformance] ReplayDiag #1: Server_StartReplay tickRate=15, requestedFromTick=43, clampedFromTick=43, minTick=0, maxTick=193, tickKeys=179. Total events: puckSpawn=1, puckMove=150, puckDespawn=0, playerSpawn=1, bodyMove=178, stickMove=178. Replay window: puckSpawn=1, puckMove=150, puckDespawn=0.
+[2026-05-20 04:15:18.600] [INFO] [ToasterPerformance] PuckCacheDiag: GetPucks rebuilding includeReplay=True: dirty=True, rawAll=0, rawNoReplay=0, rawReplay=0, cachedAll=1, cachedNoReplay=1, cachedReplay=0, liveAll=1, liveNoReplay=1, liveReplay=0, getPucksCalls=196, getReplayCalls=0, rebuilds=2.
+[2026-05-20 04:15:18.600] [INFO] [ToasterPerformance] PuckCacheDiag: RebuildPuckCache rawBefore=0 rawAfter=0: dirty=False, rawAll=0, rawNoReplay=0, rawReplay=0, cachedAll=0, cachedNoReplay=0, cachedReplay=0, liveAll=1, liveNoReplay=1, liveReplay=0, getPucksCalls=196, getReplayCalls=0, rebuilds=3.
+[2026-05-20 04:15:18.600] [INFO] [ToasterPerformance] PuckCacheDiag: GetPucks result includeReplay=True resultCount=0: dirty=False, rawAll=0, rawNoReplay=0, rawReplay=0, cachedAll=0, cachedNoReplay=0, cachedReplay=0, liveAll=1, liveNoReplay=1, liveReplay=0, getPucksCalls=196, getReplayCalls=0, rebuilds=3.
+[2026-05-20 04:15:18.600] [INFO] [ToasterPerformance] PuckCacheDiag: GetPucks result includeReplay=False resultCount=0: dirty=False, rawAll=0, rawNoReplay=0, rawReplay=0, cachedAll=0, cachedNoReplay=0, cachedReplay=0, liveAll=1, liveNoReplay=1, liveReplay=0, getPucksCalls=197, getReplayCalls=0, rebuilds=3.
+[2026-05-20 04:15:18.601] [INFO] [ToasterPerformance] PuckCacheDiag: GetReplayPucks resultCount=0: dirty=False, rawAll=0, rawNoReplay=0, rawReplay=0, cachedAll=0, cachedNoReplay=0, cachedReplay=0, liveAll=1, liveNoReplay=1, liveReplay=0, getPucksCalls=197, getReplayCalls=1, rebuilds=3.
+[2026-05-20 04:15:18.601] [INFO] [ToasterPerformance] ReplayDiag #1: puck counts at Server_StartReplay prefix: managerAll=0, managerNoReplay=0, managerReplay=0, liveAll=1, liveNoReplay=1, liveReplay=0.
+[2026-05-20 04:15:18.605] [INFO] [37m[Player][0m Despawning character (3)
+[2026-05-20 04:15:18.605] [INFO] [37m[Player][0m Despawning PlayerBody (3)
+[2026-05-20 04:15:18.605] [INFO] [37m[Player][0m Despawning PlayerCamera (3)
+[2026-05-20 04:15:18.605] [INFO] [37m[Player][0m Despawning StickPositioner (3)
+[2026-05-20 04:15:18.606] [INFO] [37m[Player][0m Despawning Stick (3)
+[2026-05-20 04:15:18.660] [INFO] [37m[Player][0m Spawning Player (1340)
+[2026-05-20 04:15:18.660] [INFO] [37m[PlayerManager][0m Spawned replay player (3)
+[2026-05-20 04:15:18.661] [INFO] [37m[Player][0m Spawning PlayerBody (1340)
+[2026-05-20 04:15:18.662] [ERROR] [37m[Player][0m Failed to spawn PlayerBody (1340): Missing prefab for role None
+[2026-05-20 04:15:18.662] [INFO] [37m[Player][0m Spawning PlayerBody (1340)
+[2026-05-20 04:15:18.663] [INFO] [37m[Player][0m Spawning PlayerCamera (1340)
+[2026-05-20 04:15:18.663] [INFO] [37m[Player][0m Spawning StickPositioner (1340)
+[2026-05-20 04:15:18.664] [INFO] [37m[Player][0m Spawning Stick (1340)
+[2026-05-20 04:15:18.664] [INFO] [37m[Player][0m Spawning Stick (1340)
+[2026-05-20 04:15:18.794] [INFO] [ToasterPerformance] ReplayDiag #1: replaying PuckSpawned originalId=54, position=(0.00, 3.00, 0.00), rotation=(0.00000, 0.00000, 0.00000, 1.00000).
+[2026-05-20 04:15:18.795] [INFO] [37m[PuckManager][0m Spawned puck 61
+[2026-05-20 04:15:18.795] [INFO] [ToasterPerformance] PuckCacheDiag: GetReplayPucks cache mismatch: dirty=True, rawAll=1, rawNoReplay=0, rawReplay=1, cachedAll=0, cachedNoReplay=0, cachedReplay=0, liveAll=1, liveNoReplay=0, liveReplay=1, getPucksCalls=197, getReplayCalls=2, rebuilds=3.
+[2026-05-20 04:15:18.796] [INFO] [ToasterPerformance] PuckCacheDiag: GetReplayPucks rebuilding: dirty=True, rawAll=1, rawNoReplay=0, rawReplay=1, cachedAll=0, cachedNoReplay=0, cachedReplay=0, liveAll=1, liveNoReplay=0, liveReplay=1, getPucksCalls=197, getReplayCalls=2, rebuilds=3.
+[2026-05-20 04:15:18.796] [INFO] [ToasterPerformance] PuckCacheDiag: RebuildPuckCache rawBefore=1 rawAfter=1: dirty=False, rawAll=1, rawNoReplay=0, rawReplay=1, cachedAll=1, cachedNoReplay=0, cachedReplay=1, liveAll=1, liveNoReplay=0, liveReplay=1, getPucksCalls=197, getReplayCalls=2, rebuilds=4.
+[2026-05-20 04:15:18.796] [INFO] [ToasterPerformance] PuckCacheDiag: GetReplayPucks resultCount=1: dirty=False, rawAll=1, rawNoReplay=0, rawReplay=1, cachedAll=1, cachedNoReplay=0, cachedReplay=1, liveAll=1, liveNoReplay=0, liveReplay=1, getPucksCalls=197, getReplayCalls=2, rebuilds=4.
+[2026-05-20 04:15:18.797] [INFO] [ToasterPerformance] ReplayDiag #1: after PuckSpawned originalId=54, replayId=61, lookupFound=yes.
+[2026-05-20 04:15:18.797] [INFO] [ToasterPerformance] PuckCacheDiag: GetPucks result includeReplay=False resultCount=0: dirty=False, rawAll=1, rawNoReplay=0, rawReplay=1, cachedAll=1, cachedNoReplay=0, cachedReplay=1, liveAll=1, liveNoReplay=0, liveReplay=1, getPucksCalls=199, getReplayCalls=2, rebuilds=4.
+[2026-05-20 04:15:18.797] [INFO] [ToasterPerformance] PuckCacheDiag: GetReplayPucks resultCount=1: dirty=False, rawAll=1, rawNoReplay=0, rawReplay=1, cachedAll=1, cachedNoReplay=0, cachedReplay=1, liveAll=1, liveNoReplay=0, liveReplay=1, getPucksCalls=199, getReplayCalls=3, rebuilds=4.
+[2026-05-20 04:15:18.797] [INFO] [ToasterPerformance] ReplayDiag #1: puck counts at PuckSpawned postfix: managerAll=1, managerNoReplay=0, managerReplay=1, liveAll=1, liveNoReplay=0, liveReplay=1.
+[2026-05-20 04:15:18.798] [INFO] [ToasterPerformance] PuckCacheDiag: GetReplayPucks resultCount=1: dirty=False, rawAll=1, rawNoReplay=0, rawReplay=1, cachedAll=1, cachedNoReplay=0, cachedReplay=1, liveAll=1, liveNoReplay=0, liveReplay=1, getPucksCalls=199, getReplayCalls=4, rebuilds=4.
+[2026-05-20 04:15:18.798] [INFO] [ToasterPerformance] ReplayDiag #1: PuckMove resolved originalId=54, replayId=61, currentPosition=(0.00, 3.00, 0.00), intendedPosition=(0.00, 3.00, 0.00).
+[2026-05-20 04:15:18.798] [INFO] [ToasterPerformance] PuckCacheDiag: GetReplayPucks resultCount=1: dirty=False, rawAll=1, rawNoReplay=0, rawReplay=1, cachedAll=1, cachedNoReplay=0, cachedReplay=1, liveAll=1, liveNoReplay=0, liveReplay=1, getPucksCalls=199, getReplayCalls=5, rebuilds=4.
+[2026-05-20 04:15:18.860] [INFO] [ToasterPerformance] PuckCacheDiag: GetReplayPucks resultCount=1: dirty=False, rawAll=1, rawNoReplay=0, rawReplay=1, cachedAll=1, cachedNoReplay=0, cachedReplay=1, liveAll=1, liveNoReplay=0, liveReplay=1, getPucksCalls=199, getReplayCalls=6, rebuilds=4.
+[2026-05-20 04:15:18.860] [INFO] [ToasterPerformance] ReplayDiag #1: PuckMove resolved originalId=54, replayId=61, currentPosition=(0.00, 3.00, 0.00), intendedPosition=(0.00, 2.96, 0.00).
+[2026-05-20 04:15:18.860] [INFO] [ToasterPerformance] PuckCacheDiag: GetReplayPucks resultCount=1: dirty=False, rawAll=1, rawNoReplay=0, rawReplay=1, cachedAll=1, cachedNoReplay=0, cachedReplay=1, liveAll=1, liveNoReplay=0, liveReplay=1, getPucksCalls=199, getReplayCalls=7, rebuilds=4.
+[2026-05-20 04:15:18.926] [INFO] [ToasterPerformance] PuckCacheDiag: GetReplayPucks resultCount=1: dirty=False, rawAll=1, rawNoReplay=0, rawReplay=1, cachedAll=1, cachedNoReplay=0, cachedReplay=1, liveAll=1, liveNoReplay=0, liveReplay=1, getPucksCalls=199, getReplayCalls=8, rebuilds=4.
+[2026-05-20 04:15:18.926] [INFO] [ToasterPerformance] ReplayDiag #1: PuckMove resolved originalId=54, replayId=61, currentPosition=(0.00, 2.96, 0.00), intendedPosition=(0.00, 2.89, 0.00).
+[2026-05-20 04:15:18.926] [INFO] [ToasterPerformance] PuckCacheDiag: GetReplayPucks resultCount=1: dirty=False, rawAll=1, rawNoReplay=0, rawReplay=1, cachedAll=1, cachedNoReplay=0, cachedReplay=1, liveAll=1, liveNoReplay=0, liveReplay=1, getPucksCalls=199, getReplayCalls=9, rebuilds=4.
+[2026-05-20 04:15:18.994] [INFO] [ToasterPerformance] ReplayDiag #1: PuckMove resolved originalId=54, replayId=61, currentPosition=(0.00, 2.89, 0.00), intendedPosition=(0.00, 2.77, 0.00).
+[2026-05-20 04:15:19.059] [INFO] [ToasterPerformance] ReplayDiag #1: PuckMove resolved originalId=54, replayId=61, currentPosition=(0.00, 2.77, 0.00), intendedPosition=(0.00, 2.61, 0.00).
+[2026-05-20 04:15:19.125] [INFO] [ToasterPerformance] ReplayDiag #1: PuckMove resolved originalId=54, replayId=61, currentPosition=(0.00, 2.61, 0.00), intendedPosition=(0.00, 2.41, 0.00).
+[2026-05-20 04:15:19.193] [INFO] [ToasterPerformance] ReplayDiag #1: PuckMove resolved originalId=54, replayId=61, currentPosition=(0.00, 2.41, 0.00), intendedPosition=(0.00, 2.17, 0.00).
+[2026-05-20 04:15:19.259] [INFO] [ToasterPerformance] ReplayDiag #1: PuckMove resolved originalId=54, replayId=61, currentPosition=(0.00, 2.17, 0.00), intendedPosition=(0.00, 1.90, 0.00).
+[2026-05-20 04:15:19.326] [INFO] [ToasterPerformance] ReplayDiag #1: PuckMove resolved originalId=54, replayId=61, currentPosition=(0.00, 1.90, 0.00), intendedPosition=(0.00, 1.59, 0.00).
+[2026-05-20 04:15:19.394] [INFO] [ToasterPerformance] ReplayDiag #1: PuckMove resolved originalId=54, replayId=61, currentPosition=(0.00, 1.59, 0.00), intendedPosition=(0.00, 1.23, 0.00).
+[2026-05-20 04:15:19.459] [INFO] [ToasterPerformance] ReplayDiag #1: PuckMove resolved originalId=54, replayId=61, currentPosition=(0.00, 1.23, 0.00), intendedPosition=(0.00, 0.85, 0.00).
+[2026-05-20 04:15:19.526] [INFO] [ToasterPerformance] ReplayDiag #1: PuckMove resolved originalId=54, replayId=61, currentPosition=(0.00, 0.85, 0.00), intendedPosition=(0.00, 0.43, 0.00).
+[2026-05-20 04:15:19.594] [INFO] [ToasterPerformance] ReplayDiag #1: PuckMove resolved originalId=54, replayId=61, currentPosition=(0.00, 0.43, 0.00), intendedPosition=(0.00, 0.08, 0.00).
+[2026-05-20 04:15:19.659] [INFO] [ToasterPerformance] ReplayDiag #1: PuckMove resolved originalId=54, replayId=61, currentPosition=(0.00, 0.08, 0.00), intendedPosition=(0.00, 0.08, 0.00).
+[2026-05-20 04:15:19.726] [INFO] [ToasterPerformance] ReplayDiag #1: PuckMove resolved originalId=54, replayId=61, currentPosition=(0.00, 0.08, 0.00), intendedPosition=(0.00, 0.08, 0.00).
+[2026-05-20 04:15:19.794] [INFO] [ToasterPerformance] ReplayDiag #1: PuckMove resolved originalId=54, replayId=61, currentPosition=(0.00, 0.08, 0.00), intendedPosition=(0.00, 0.08, 0.00).
+[2026-05-20 04:15:19.860] [INFO] [ToasterPerformance] ReplayDiag #1: PuckMove resolved originalId=54, replayId=61, currentPosition=(0.00, 0.08, 0.00), intendedPosition=(0.00, 0.08, 0.00).
+[2026-05-20 04:15:19.926] [INFO] [ToasterPerformance] ReplayDiag #1: PuckMove resolved originalId=54, replayId=61, currentPosition=(0.00, 0.08, 0.00), intendedPosition=(0.00, 0.08, 0.00).
+[2026-05-20 04:15:19.993] [INFO] [ToasterPerformance] ReplayDiag #1: PuckMove resolved originalId=54, replayId=61, currentPosition=(0.00, 0.08, 0.00), intendedPosition=(0.00, 0.08, 0.00).
+[2026-05-20 04:15:20.060] [INFO] [ToasterPerformance] ReplayDiag #1: PuckMove resolved originalId=54, replayId=61, currentPosition=(0.00, 0.08, 0.00), intendedPosition=(0.00, 0.08, 0.00).
+[2026-05-20 04:15:20.126] [INFO] [ToasterPerformance] ReplayDiag #1: PuckMove resolved originalId=54, replayId=61, currentPosition=(0.00, 0.08, 0.00), intendedPosition=(0.07, 0.08, -0.24).
+[2026-05-20 04:15:20.193] [INFO] [ToasterPerformance] ReplayDiag #1: PuckMove resolved originalId=54, replayId=61, currentPosition=(0.07, 0.08, -0.24), intendedPosition=(0.21, 0.08, -0.71).
+[2026-05-20 04:15:20.260] [INFO] [ToasterPerformance] ReplayDiag #1: PuckMove resolved originalId=54, replayId=61, currentPosition=(0.21, 0.08, -0.71), intendedPosition=(0.37, 0.08, -1.19).
+[2026-05-20 04:15:20.326] [INFO] [ToasterPerformance] ReplayDiag #1: PuckMove resolved originalId=54, replayId=61, currentPosition=(0.37, 0.08, -1.19), intendedPosition=(0.53, 0.08, -1.66).
+[2026-05-20 04:15:20.393] [INFO] [ToasterPerformance] ReplayDiag #1: PuckMove resolved originalId=54, replayId=61, currentPosition=(0.53, 0.08, -1.66), intendedPosition=(0.69, 0.08, -2.14).
+[2026-05-20 04:15:21.994] [INFO] [ToasterPerformance] PuckCacheDiag: GetReplayPucks resultCount=1 periodic: dirty=False, rawAll=1, rawNoReplay=0, rawReplay=1, cachedAll=1, cachedNoReplay=0, cachedReplay=1, liveAll=1, liveNoReplay=0, liveReplay=1, getPucksCalls=199, getReplayCalls=100, rebuilds=4.
+[2026-05-20 04:15:25.326] [INFO] [ToasterPerformance] PuckCacheDiag: GetReplayPucks resultCount=1 periodic: dirty=False, rawAll=1, rawNoReplay=0, rawReplay=1, cachedAll=1, cachedNoReplay=0, cachedReplay=1, liveAll=1, liveNoReplay=0, liveReplay=1, getPucksCalls=199, getReplayCalls=200, rebuilds=4.
+[2026-05-20 04:15:25.393] [INFO] [ToasterPerformance] ReplayDiag #1: PuckMove progress events=100, resolved=100, missingMap=0, missingReplayPuck=0.
+[2026-05-20 04:15:28.645] [INFO] [ToasterPerformance] ReplayDiag #1: Server_StopReplay summary: puckMoveEvents=148, resolved=148, missingMap=0, missingReplayPuck=0.
+[2026-05-20 04:15:28.646] [INFO] [ToasterPerformance] PuckCacheDiag: GetPucks includeReplay=True resultCount=1 periodic: dirty=False, rawAll=1, rawNoReplay=0, rawReplay=1, cachedAll=1, cachedNoReplay=0, cachedReplay=1, liveAll=1, liveNoReplay=0, liveReplay=1, getPucksCalls=200, getReplayCalls=299, rebuilds=4.
+[2026-05-20 04:15:28.646] [INFO] [ToasterPerformance] PuckCacheDiag: GetReplayPucks resultCount=1 periodic: dirty=False, rawAll=1, rawNoReplay=0, rawReplay=1, cachedAll=1, cachedNoReplay=0, cachedReplay=1, liveAll=1, liveNoReplay=0, liveReplay=1, getPucksCalls=201, getReplayCalls=300, rebuilds=4.
+[2026-05-20 04:15:28.646] [INFO] [ToasterPerformance] ReplayDiag #1: puck counts at Server_StopReplay prefix: managerAll=1, managerNoReplay=0, managerReplay=1, liveAll=1, liveNoReplay=0, liveReplay=1.
+[2026-05-20 04:15:28.647] [INFO] [37m[Player][0m Despawning PlayerBody (1340)
+[2026-05-20 04:15:28.647] [INFO] [37m[Player][0m Despawning PlayerCamera (1340)
+[2026-05-20 04:15:28.647] [INFO] [37m[Player][0m Despawning StickPositioner (1340)
+[2026-05-20 04:15:28.647] [INFO] [37m[Player][0m Despawning Stick (1340)
+[2026-05-20 04:15:28.648] [INFO] [37m[Player][0m Despawning character (1340)
+[2026-05-20 04:15:28.648] [INFO] [37m[Player][0m Despawning PlayerBody (1340)
+[2026-05-20 04:15:28.648] [INFO] [37m[Player][0m Despawning PlayerCamera (1340)
+[2026-05-20 04:15:28.648] [INFO] [37m[Player][0m Despawning StickPositioner (1340)
+[2026-05-20 04:15:28.648] [INFO] [37m[Player][0m Despawning Stick (1340)
+[2026-05-20 04:15:28.648] [INFO] [37m[Player][0m Despawning Player (1340)
+[2026-05-20 04:15:28.651] [INFO] [37m[ReplayPlayer][0m Despawned replay player 1340
+[2026-05-20 04:15:28.651] [INFO] [ToasterPerformance] PuckCacheDiag: RemovePuck postfix puckId=61, isReplay=True: dirty=True, rawAll=0, rawNoReplay=0, rawReplay=0, cachedAll=1, cachedNoReplay=0, cachedReplay=1, liveAll=1, liveNoReplay=0, liveReplay=1, getPucksCalls=201, getReplayCalls=301, rebuilds=4.
+[2026-05-20 04:15:28.651] [INFO] [37m[PuckManager][0m Despawned puck 61
+[2026-05-20 04:15:28.651] [INFO] [37m[ReplayPlayer][0m Despawned replay puck 0
+[2026-05-20 04:15:28.651] [INFO] [37m[PuckManager][0m Despawning 0 pucks (includeReplay: False)
+[2026-05-20 04:15:28.651] [INFO] [37m[ReplayRecorder][0m Replay recording started at 15 ticks per second
+[2026-05-20 04:15:28.651] [INFO] [ToasterPerformance] PuckCacheDiag: RebuildPuckCache rawBefore=0 rawAfter=0: dirty=False, rawAll=0, rawNoReplay=0, rawReplay=0, cachedAll=0, cachedNoReplay=0, cachedReplay=0, liveAll=1, liveNoReplay=0, liveReplay=1, getPucksCalls=202, getReplayCalls=301, rebuilds=5.
+[2026-05-20 04:15:28.651] [INFO] [37m[Player][0m Spawning character (3)
+[2026-05-20 04:15:28.651] [INFO] [37m[Player][0m Spawning PlayerBody (3)
+[2026-05-20 04:15:28.653] [INFO] [37m[Player][0m Spawning PlayerCamera (3)
+[2026-05-20 04:15:28.653] [INFO] [37m[Player][0m Spawning StickPositioner (3)
+[2026-05-20 04:15:28.654] [INFO] [37m[Player][0m Spawning Stick (3)
+[2026-05-20 04:15:29.929] [INFO] [37m[Player][0m Despawning character (3)
+[2026-05-20 04:15:29.929] [INFO] [37m[Player][0m Despawning PlayerBody (3)
+[2026-05-20 04:15:29.929] [INFO] [37m[Player][0m Despawning PlayerCamera (3)
+[2026-05-20 04:15:29.929] [INFO] [37m[Player][0m Despawning StickPositioner (3)
+[2026-05-20 04:15:29.929] [INFO] [37m[Player][0m Despawning Stick (3)
+[2026-05-20 04:15:29.929] [INFO] [37m[Player][0m Despawning Player (3)
+[2026-05-20 04:15:29.931] [INFO] [37m[PlayerPosition][0m Position C unclaimed
+[2026-05-20 04:15:29.933] [INFO] [37m[ServerManagerController][0m Client disconnected (3) 0/1
+[2026-05-20 04:15:31.657] [INFO] [37m[PuckManager][0m Spawning pucks for phase Play
+[2026-05-20 04:15:31.658] [INFO] [37m[PuckManager][0m Spawned puck 66
+[2026-05-20 04:15:31.716] [INFO] [ToasterPerformance] PuckCacheDiag: GetPucks cache mismatch includeReplay=False: dirty=True, rawAll=1, rawNoReplay=1, rawReplay=0, cachedAll=0, cachedNoReplay=0, cachedReplay=0, liveAll=1, liveNoReplay=1, liveReplay=0, getPucksCalls=249, getReplayCalls=301, rebuilds=5.
+[2026-05-20 04:15:31.716] [INFO] [ToasterPerformance] PuckCacheDiag: RebuildPuckCache rawBefore=1 rawAfter=1: dirty=False, rawAll=1, rawNoReplay=1, rawReplay=0, cachedAll=1, cachedNoReplay=1, cachedReplay=0, liveAll=1, liveNoReplay=1, liveReplay=0, getPucksCalls=249, getReplayCalls=301, rebuilds=6.
+[2026-05-20 04:15:35.116] [INFO] [ToasterPerformance] PuckCacheDiag: GetPucks includeReplay=False resultCount=1 periodic: dirty=False, rawAll=1, rawNoReplay=1, rawReplay=0, cachedAll=1, cachedNoReplay=1, cachedReplay=0, liveAll=1, liveNoReplay=1, liveReplay=0, getPucksCalls=300, getReplayCalls=301, rebuilds=6.
+[2026-05-20 04:15:41.781] [INFO] [ToasterPerformance] PuckCacheDiag: GetPucks includeReplay=False resultCount=1 periodic: dirty=False, rawAll=1, rawNoReplay=1, rawReplay=0, cachedAll=1, cachedNoReplay=1, cachedReplay=0, liveAll=1, liveNoReplay=1, liveReplay=0, getPucksCalls=400, getReplayCalls=301, rebuilds=6.
+[2026-05-20 04:15:48.448] [INFO] [ToasterPerformance] PuckCacheDiag: GetPucks includeReplay=False resultCount=1 periodic: dirty=False, rawAll=1, rawNoReplay=1, rawReplay=0, cachedAll=1, cachedNoReplay=1, cachedReplay=0, liveAll=1, liveNoReplay=1, liveReplay=0, getPucksCalls=500, getReplayCalls=301, rebuilds=6.
