@@ -2,12 +2,12 @@ using System;
 using UnityEngine;
 using HarmonyLib;
 
-namespace B323ServerSideFixes
+namespace B897ServerSideFixes
 {
     // Minimal mod entry implementing IPuckMod. Initializes Harmony patches on enable.
-    public class B323ServerSideFixesInit : IPuckPlugin
+    public class B897ServerSideFixesInit : IPuckPlugin
     {
-        private const string HarmonyId = "com.johneagan.puck.b323serversidefixes";
+        private const string HarmonyId = "com.johneagan.puck.b897serversidefixes";
 
         private static readonly Harmony harmony = new Harmony(HarmonyId);
         private static bool patched;
@@ -17,7 +17,7 @@ namespace B323ServerSideFixes
             try
             {
                 PatchReplayLifecycle();
-                Debug.Log("B323 Server-Side Fixes mod enabled. Hi Toter!");
+                Debug.Log("B897 Server-Side Fixes mod enabled. Hi Toter!");
                 return true;
             }
             catch (Exception e)
@@ -36,7 +36,7 @@ namespace B323ServerSideFixes
                     harmony.UnpatchSelf();
                     patched = false;
                 }
-                Debug.Log("B323 Server-Side Fixes mod disabled.");
+                Debug.Log("B897 Server-Side Fixes mod disabled.");
                 return true;
             }
             catch (Exception e)
@@ -53,10 +53,10 @@ namespace B323ServerSideFixes
                 return;
             }
 
-            ReplayFaceOffLifecyclePatch.Apply(harmony);
-            ReplayStickSimulationPatch.Apply(harmony);
             ReplayGhostObjectCleanupPatch.Apply(harmony);
+            ReplayStartGameCleanupPatch.Apply(harmony);
             FaceOffPositionDoubleClickPatch.Apply(harmony);
+            FaceOffPreGameDurationPatch.Apply(harmony);
             patched = true;
         }
     }

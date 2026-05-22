@@ -6,7 +6,7 @@ using HarmonyLib;
 using Unity.Netcode;
 using UnityEngine;
 
-namespace B323ServerSideFixes
+namespace B897ServerSideFixes
 {
     internal static class ReplayGhostObjectCleanupPatch
     {
@@ -129,7 +129,7 @@ namespace B323ServerSideFixes
             if (despawnedObjectCount > 0)
             {
                 Debug.Log(string.Format(
-                    "B323 Server-Side Fixes: cleaned up orphaned replay objects. bodies={0}, cameras={1}, stickPositioners={2}, sticks={3}, pucks={4}",
+                    "B897 Server-Side Fixes: cleaned up orphaned replay objects. bodies={0}, cameras={1}, stickPositioners={2}, sticks={3}, pucks={4}",
                     despawnedBodyCount,
                     despawnedCameraCount,
                     despawnedStickPositionerCount,

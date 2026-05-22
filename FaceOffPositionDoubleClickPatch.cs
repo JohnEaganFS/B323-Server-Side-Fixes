@@ -4,7 +4,7 @@ using HarmonyLib;
 using Unity.Netcode;
 using UnityEngine;
 
-namespace B323ServerSideFixes
+namespace B897ServerSideFixes
 {
     internal static class FaceOffPositionDoubleClickPatch
     {
@@ -48,7 +48,7 @@ namespace B323ServerSideFixes
             if (position.IsClaimed && position.ClaimedByPlayer == player)
             {
                 Debug.Log(string.Format(
-                    "B323 Server-Side Fixes: ignored duplicate FaceOff position click for player {0} on position {1}.",
+                    "B897 Server-Side Fixes: ignored duplicate FaceOff position click for player {0} on position {1}.",
                     player.OwnerClientId,
                     position.Name));
                 return false;

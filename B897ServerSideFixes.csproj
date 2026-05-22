@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Libs Include="libs_323\*.dll" Exclude="libs_323\System.*.dll" />
+    <Libs Include="libs_897\*.dll" Exclude="libs_897\System.*.dll" />
 
     <Reference Include="@(Libs)">
       <HintPath>%(Libs.FullPath)</HintPath>
@@ -23,12 +23,16 @@
     <None Include="toasterperformance_src\**\*.cs" />
     <Compile Remove="toasterperformance_fixed_reference\**\*.cs" />
     <None Include="toasterperformance_fixed_reference\**\*.cs" />
+    <Compile Remove="puck_src\**\*.cs" />
+    <None Include="puck_src\**\*.cs" />
+    <Compile Remove="other_mods_src\**\*.cs" />
+    <None Include="other_mods_src\**\*.cs" />
   </ItemGroup>
 
   <Target Name="PostBuildMoveDll" AfterTargets="Build">
     <PropertyGroup>
-      <TargetDir>F:\Steam\steamapps\common\Puck\Plugins\B323 Server-Side Fixes</TargetDir>
-      <WorkshopDir>F:\Downloads\SteamWorkshopUploader\WorkshopContent\B323 Server-Side Fixes</WorkshopDir>
+      <TargetDir>F:\Steam\steamapps\common\Puck\Plugins\B897 Server-Side Fixes</TargetDir>
+      <WorkshopDir>F:\Downloads\SteamWorkshopUploader\WorkshopContent\B897 Server-Side Fixes</WorkshopDir>
     </PropertyGroup>
 
     <MakeDir Directories="$(TargetDir)" />
