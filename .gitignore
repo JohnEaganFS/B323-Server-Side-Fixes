@@ -1,5 +1,5 @@
 /bin
-/libs_323
+/libs_897
 /obj
 /og_src
 /src
@@ -7,3 +7,5 @@
 /toasterperformance_fixed_reference
 *.log
 *.md
+/puck_src
+/other_mods_src
